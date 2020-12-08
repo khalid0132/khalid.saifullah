@@ -1,0 +1,269 @@
+/*Media Query Starts*/
+
+/*For Extra Small Device starts*/
+@media (max-width: 575px){
+   
+    .navbar-expand-lg .navbar-nav .nav-link {
+	padding-left: 0px;
+}
+.navbar-toggler-icon:hover {
+	color: yellowgreen;
+}
+    
+    .navbar-nav {
+	background: black;
+	text-align: center;
+}
+    
+    .navbar-nav {
+	text-align: center;
+}
+    
+    #banner {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#banner p.welcome {
+	font-size: 25px;
+	font-weight: 400;
+	padding-bottom: 15px;
+    text-align: center;
+}
+    #banner p {
+	text-align: center;
+}
+    #banner h3 {
+	font-size: 20px;
+}
+    #about .about_right ul.social_media {
+	display: flex;
+	justify-content: center;
+}
+    p {
+	text-align: left;
+}
+    #about::before {
+	width: 0%;
+
+}
+    #about {
+	padding-top: 40px;
+	padding-bottom: 0;
+	text-align: center;
+}
+    #about .about_item p.title {
+	padding-bottom: 5px;
+}
+    
+    #hire {
+	padding-top: 40px;
+}
+    #client {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+    #client p {
+	text-align: center;
+}
+    #portfolio {
+	padding-top: 50px;
+}
+    #portfolio p {
+	text-align: center;
+}
+    #blog {
+	padding-top: 50px;
+}
+    #blog p.title {
+	padding-bottom: 30px;
+        text-align: center;
+}
+    #service h2 {
+	font-size: 20px;
+}
+    #contact {
+	padding-top: 50px;
+        text-align: center;
+}
+    #contact p{
+	text-align: center;
+}
+    #footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+    #footer p {
+	text-align: center;
+}
+}
+/*For Extra Small Device starts*/
+
+
+/*For  Small Device starts*/
+@media (min-width: 576px) and (max-width: 767px) {
+       
+    .navbar-expand-lg .navbar-nav .nav-link {
+	padding-left: 0px;
+}
+.navbar-toggler-icon:hover {
+	color: yellowgreen;
+}
+    
+    .navbar-nav {
+	background: black;
+	text-align: center;
+}
+    
+    .navbar-nav {
+	text-align: center;
+}
+    
+    #banner {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#banner p.welcome {
+	font-size: 25px;
+	font-weight: 400;
+	padding-bottom: 15px;
+    text-align: center;
+}
+    #banner p {
+	text-align: center;
+}
+    #banner h3 {
+	font-size: 20px;
+}
+    #about .about_right ul.social_media {
+	display: flex;
+	justify-content: center;
+}
+    p {
+	text-align: left;
+}
+    #about::before {
+	width: 0%;
+
+}
+    #about {
+	padding-top: 40px;
+	padding-bottom: 0;
+	text-align: center;
+}
+    #about .about_item p.title {
+	padding-bottom: 5px;
+}
+    
+    #hire {
+	padding-top: 40px;
+}
+    #client {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+    #client p {
+	text-align: center;
+}
+    #portfolio {
+	padding-top: 50px;
+}
+    #portfolio p {
+	text-align: center;
+}
+    #service h2 {
+	font-size: 20px;
+}
+    #blog {
+	padding-top: 50px;
+}
+    #blog p.title {
+	padding-bottom: 30px;
+        text-align: center;
+}
+    #contact {
+	padding-top: 50px;
+        text-align: center;
+}
+    #contact p{
+	text-align: center;
+}
+    #footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+    #footer p {
+	text-align: center;
+}
+}
+/*For Small Device ends*/
+
+
+/*For Medium Device starts*/
+@media (min-width: 768px) and (max-width: 991px) {
+   #banner {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	/* height: 100vh; */
+}/*
+    .bg {
+	background: #000;
+}*/
+    .navbar-expand-lg .navbar-nav .nav-link {
+	padding-left: 0;
+}
+    .navbar-nav {
+	background: black;
+	text-align: center;
+}
+    #about .about_right ul.social_media {
+	justify-content: center;
+}
+    #about .about_right h2 {
+	text-align: center;
+}
+    #about {
+	padding-top: 60px;
+	padding-bottom: 0px;
+}
+    #hire {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+    #client {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+    #portfolio {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+    #blog {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+     #service h2 {
+	font-size: 25px;
+}
+    #contact {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+    #service h2 {
+	font-size: 25px;
+}
+}
+/*For Medium Device ends*/
+
+
+/*For large Device starts*/
+@media (min-width: 992px) and (max-width: 1199px) {
+.bg {
+	background: green;
+}
+    #service h2 {
+	font-size: 25px;
+}
+}
+/*For large Device ends*/
+
+/*Media Query Ends*/

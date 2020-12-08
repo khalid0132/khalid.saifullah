@@ -1,0 +1,28 @@
+.social_icon li a, .btn1 {
+    background: #86d010;
+}
+
+.social_icon li a:hover, 
+.btn1:hover,
+.heading_section::before,
+#features .features_left .left_content span,
+#features .features_right .right_content span{
+    background:#7e3636;
+}
+
+.social_icon li a:hover span, 
+#top_header .header_left ul li span, 
+.navbar .navbar-nav .nav-link:hover, 
+#banner .banner_content_left h1,
+.btn1:hover,
+.heading_section h4,
+#features .features_left .left_content span,
+#features .features_right .right_content span{
+    color:#86d010;
+}
+
+.social_icon a span, .btn1,
+.navbar .navbar-nav .nav-link.active{
+    color: #7e3636;
+
+}
